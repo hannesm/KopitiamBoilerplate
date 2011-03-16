@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Kopitiam update site" url="http://www.itu.dk/~hame/kopitiam">
+      Modular Incremental Interactive Full Functional Static Verification of Java Code
+   </description>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.0.1.jar" id="dk.itu.sdg.feature.kopitiam" version="0.0.1">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.0.2.jar" id="dk.itu.sdg.feature.kopitiam" version="0.0.2">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.0.3.jar" id="dk.itu.sdg.feature.kopitiam" version="0.0.3">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.0.4.jar" id="dk.itu.sdg.feature.kopitiam" version="0.0.4">
+      <category name="proof"/>
+   </feature>
+   <category-def name="proof" label="Proof Tools">
+      <description>
+         Proof tools, namely Kopitiam
+      </description>
+   </category-def>
+</site>
