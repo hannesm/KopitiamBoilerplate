@@ -2,7 +2,7 @@
 <feature
       id="dk.itu.sdg.feature.kopitiam"
       label="Kopitiam"
-      version="0.0.14">
+      version="0.0.15">
 
    <description>
       Modular Incremental Interactive Full Functional Static Verification
@@ -46,14 +46,14 @@ The views and conclusions contained in the software and documentation are those 
          id="dk.itu.sdg.kopitiam"
          download-size="0"
          install-size="0"
-         version="0.0.14"
+         version="0.0.15"
          unpack="false"/>
 
    <plugin
          id="org.scala-ide.scala.library"
          download-size="0"
          install-size="0"
-         version="2.8.0.final-p0001"
+         version="2.9.0.1"
          unpack="false"/>
 
 </feature>
