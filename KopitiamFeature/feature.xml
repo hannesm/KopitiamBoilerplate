@@ -2,7 +2,7 @@
 <feature
       id="dk.itu.sdg.feature.kopitiam"
       label="Kopitiam"
-      version="0.0.20">
+      version="0.0.21">
 
    <description>
       Modular Incremental Interactive Full Functional Static Verification of Java Code
@@ -10,7 +10,7 @@
 
    <license>
       Author: Hannes Mehnert
-Copyright: 2010-2011 Hannes Mehnert. All rights reserved.
+Copyright: 2010-2012 Hannes Mehnert. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -46,7 +46,7 @@ The views and conclusions contained in the software and documentation are those 
          id="dk.itu.sdg.kopitiam"
          download-size="0"
          install-size="0"
-         version="0.0.20"
+         version="0.0.21"
          unpack="false"/>
 
    <plugin
