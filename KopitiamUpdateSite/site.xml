@@ -81,6 +81,30 @@
    <feature url="features/dk.itu.sdg.feature.kopitiam_0.0.26.jar" id="dk.itu.sdg.feature.kopitiam" version="0.0.26">
       <category name="proof"/>
    </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.0.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.0">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.1.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.1">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.2.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.2">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.3.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.3">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.4.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.4">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.5.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.5">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.6.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.6">
+      <category name="proof"/>
+   </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.7.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.7">
+      <category name="proof"/>
+   </feature>
    <category-def name="proof" label="Proof Tools">
       <description>
          Proof tools, namely Kopitiam

@@ -2,7 +2,7 @@
 <feature
       id="dk.itu.sdg.feature.kopitiam"
       label="Kopitiam"
-      version="0.0.26">
+      version="0.1.7">
 
    <description>
       Modular Incremental Interactive Full Functional Static Verification of Java Code
@@ -46,7 +46,7 @@ The views and conclusions contained in the software and documentation are those 
          id="dk.itu.sdg.kopitiam"
          download-size="0"
          install-size="0"
-         version="0.0.26"
+         version="0.1.0"
          unpack="false"/>
 
    <plugin
@@ -55,5 +55,60 @@ The views and conclusions contained in the software and documentation are those 
          install-size="0"
          version="2.9.2.v20120330-163119-949a4804e4"
          unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="0"
+         install-size="0"
+         version="3.7.3.v20120119-1537"
+         unpack="false"/>
+
+   <plugin
+         id="dk.itu.sdg.kopitiamaspects"
+         download-size="0"
+         install-size="0"
+         version="0.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.contribution.weaving.jdt"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.e37x-RELEASE-20120704-0900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi"
+         download-size="0"
+         install-size="0"
+         version="3.7.2.v20120110-1415"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.aspectj"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.I20120427-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.hook"
+         download-size="0"
+         install-size="0"
+         version="1.0.200.I20120427-0800"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.aspectj.runtime"
+         download-size="0"
+         install-size="0"
+         version="1.7.0.20120703164200"/>
+
+   <plugin
+         id="org.aspectj.weaver"
+         download-size="0"
+         install-size="0"
+         version="1.7.0.20120703164200"/>
 
 </feature>
