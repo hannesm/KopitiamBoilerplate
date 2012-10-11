@@ -108,6 +108,9 @@
    <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.8.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.8">
       <category name="proof"/>
    </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam_0.1.9.jar" id="dk.itu.sdg.feature.kopitiam" version="0.1.9">
+      <category name="proof"/>
+   </feature>
    <category-def name="proof" label="Proof Tools">
       <description>
          Proof tools, namely Kopitiam
