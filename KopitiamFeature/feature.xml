@@ -2,7 +2,7 @@
 <feature
       id="dk.itu.sdg.feature.kopitiam"
       label="Kopitiam"
-      version="0.2.11">
+      version="0.2.13">
 
    <description>
       Modular Incremental Interactive Full Functional Static Verification of Java Code
@@ -46,7 +46,7 @@ The views and conclusions contained in the software and documentation are those 
          id="dk.itu.sdg.kopitiam"
          download-size="0"
          install-size="0"
-         version="0.2.11"
+         version="0.2.13"
          unpack="false"/>
 
    <plugin
