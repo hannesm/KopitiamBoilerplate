@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="dk.itu.sdg.feature.kopitiam.dev"
+      label="Kopitiam"
+      version="0.3.0">
+
+   <description>
+      Modular Incremental Interactive Full Functional Static Verification of Java Code
+   </description>
+
+   <license>
+      Author: Hannes Mehnert
+Copyright: 2010-2013 Hannes Mehnert. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+3. This code is free for all non-military or non-homeland security uses. Military and homeland security are not allowed to use or distribute the code in any form.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS&apos;&apos; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Hannes Mehnert OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of Hannes Mehnert.
+   </license>
+
+   <url>
+      <update label="Kopitiam (development)" url="http://www.itu.dk/research/tomeso/kopitiam/dev"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.aspectj.runtime"/>
+      <import plugin="org.eclipse.osgi" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.browser" version="3.3.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.forms" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit.core" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.simpleconfigurator.manipulator" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.frameworkadmin" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.debug" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.launching" version="3.5.100" match="greaterOrEqual"/>
+      <import plugin="org.aspectj.weaver"/>
+      <import plugin="org.eclipse.osgi" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.jdt.core" version="3.7.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="dk.itu.sdg.kopitiam"
+         download-size="0"
+         install-size="0"
+         version="0.3.0"
+         unpack="false"/>
+
+   <plugin
+         id="dk.itu.sdg.kopitiamaspects"
+         download-size="0"
+         install-size="0"
+         version="0.0.5"
+         unpack="false"/>
+
+   <plugin
+         id="org.aspectj.runtime"
+         download-size="0"
+         install-size="0"
+         version="1.7.3.20130613144500-a"/>
+
+   <plugin
+         id="org.aspectj.weaver"
+         download-size="0"
+         install-size="0"
+         version="1.7.3.20130613144500-a"/>
+
+   <plugin
+         id="org.eclipse.contribution.weaving.jdt"
+         download-size="0"
+         install-size="0"
+         version="2.2.3.e42x-RELEASE-20130623-1000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.aspectj"
+         download-size="0"
+         install-size="0"
+         version="1.0.300.I20130319-1000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.hook"
+         download-size="0"
+         install-size="0"
+         version="1.0.200.v20120524-1707"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.scala-ide.scala.library"
+         download-size="0"
+         install-size="0"
+         version="2.10.1.v20130302-092018-VFINAL-33e32179fd"
+         unpack="false"/>
+
+</feature>
