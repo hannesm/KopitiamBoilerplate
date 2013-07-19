@@ -2,7 +2,7 @@
 <feature
       id="dk.itu.sdg.feature.kopitiam.dev"
       label="Kopitiam"
-      version="0.3.0">
+      version="0.3.1">
 
    <description>
       Modular Incremental Interactive Full Functional Static Verification of Java Code
@@ -53,7 +53,7 @@ The views and conclusions contained in the software and documentation are those 
          id="dk.itu.sdg.kopitiam"
          download-size="0"
          install-size="0"
-         version="0.3.0"
+         version="0.3.1"
          unpack="false"/>
 
    <plugin
@@ -79,7 +79,7 @@ The views and conclusions contained in the software and documentation are those 
          id="org.eclipse.contribution.weaving.jdt"
          download-size="0"
          install-size="0"
-         version="2.2.3.e42x-RELEASE-20130623-1000"
+         version="2.2.3.e42x-RELEASE-20130625-1400"
          unpack="false"/>
 
    <plugin
@@ -101,7 +101,7 @@ The views and conclusions contained in the software and documentation are those 
          id="org.scala-ide.scala.library"
          download-size="0"
          install-size="0"
-         version="2.10.1.v20130302-092018-VFINAL-33e32179fd"
+         version="2.10.2.v20130530-074427-VFINAL-60d462ef6e"
          unpack="false"/>
 
 </feature>
