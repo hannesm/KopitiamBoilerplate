@@ -6,5 +6,8 @@
    <feature url="features/dk.itu.sdg.feature.kopitiam.dev_0.3.1.jar" id="dk.itu.sdg.feature.kopitiam.dev" version="0.3.1">
       <category name="proof"/>
    </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam.dev_0.3.2.jar" id="dk.itu.sdg.feature.kopitiam.dev" version="0.3.2">
+      <category name="proof"/>
+   </feature>
    <category-def name="proof" label="Proof Tools"/>
 </site>
