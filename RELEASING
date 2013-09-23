@@ -1,0 +1,87 @@
+# Kopitiam release process
+
+1. Update the plugin's version number and add a changelog entry
+2. Tag the new commit
+3. Update and export the Eclipse feature
+4. Update and export the Eclipse update site
+5. Commit the updated feature and update site
+6. Update the update site
+
+(The instructions in the following steps use `*foo*` as a placeholder for the
+new version number.)
+
+## Commit the new version number and its associated changelog entry
+
+1. Update the version number in `Kopitiam.git/META-INF/MANIFEST.MF` to `*foo*`.
+2. Add a changelog entry in `Kopitiam.git/Changelog.org`.
+3. Commit these changes to `Kopitiam.git` with a message of the form
+   `Bumped the version number to *foo* and added a changelog entry`.
+
+## Tag the new commit
+
+Create a Git tag in `Kopitiam.git` with the name `v*foo*` (pointing at the
+latest commit).
+
+## Update and export the Eclipse feature
+
+1. Update the version number in the
+   `KopitiamBoilerplate.git/KopitiamDevFeature/feature.xml` file to `*foo*`.
+2. Resynchronise the versions of the feature's plug-ins (using the
+   "Versions..." button on the "Plug-ins" tab).
+3. Use the Export Wizard to export the Kopitiam feature and its dependencies
+   somewhere.
+
+### Notes
+
+**Don't use Eclipse 4.3 to export the feature** &mdash; use Eclipse 4.2 to
+avoid breaking backwards compatibility.
+
+Make sure the following options are all set in the Export Wizard:
+
+* "Export source: Include source in exported plug-ins"
+* "Package as individual JAR archives (required for JNLP and update sites)"
+* "Allow for binary cycles in target platform"
+* "Use class files compiled in the workspace"
+
+Once the export process is complete, Eclipse may claim that "errors occurred
+during the export operation"; this seems to be harmless (and both of the error
+logs presented by Eclipse are empty).
+
+## Update and export the Eclipse update site
+
+1. Add the new feature to the
+   `KopitiamBoilerplate.git/KopitiamDevUpdateSite/site.xml` file (in the
+   `proof` category).
+2. Click the "Build All" button.
+
+### Notes
+
+Don't delete any of the old features.
+
+The resulting update site is broken &mdash; the exported version of the
+Kopitiam plug-in doesn't contain any `.class` files! (This is why we had to
+explicitly export the Kopitiam feature earlier.)
+
+## Commit the updated feature and update site
+
+Commit these changes to the `KopitiamBoilerplate.git` repository with a message
+of the form `Added the *foo* release to the development update site`.
+
+## Update the update site
+
+1. Copy the following files from the `KopitiamDevUpdateSite` project to the ITU
+   update site:
+ * `artifacts.jar`;
+ * `content.jar`; and
+ * `site.xml`.
+2. Copy the `features/dk.itu.sdg.feature.kopitiam.dev_*foo*.jar` file from the
+   `KopitiamDevUpdateSite` project to the `features/` subdirectory of the ITU
+   update site.
+3. Copy the `dk.itu.sdg.kopitiam_*foo*.jar` file exported during step 3, along
+   with any new dependencies, to the `plugins/` subdirectory of the ITU update
+   site.
+
+### Notes
+
+Remember that the Kopitiam `.jar` file from the `KopitiamDevUpdateSite` project
+is broken and should not be uploaded to the ITU update site.
