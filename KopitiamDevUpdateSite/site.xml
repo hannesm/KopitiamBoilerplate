@@ -24,5 +24,8 @@
    <feature url="features/dk.itu.sdg.feature.kopitiam.dev_0.3.7.jar" id="dk.itu.sdg.feature.kopitiam.dev" version="0.3.7">
       <category name="proof"/>
    </feature>
+   <feature url="features/dk.itu.sdg.feature.kopitiam.dev_0.3.7.1.jar" id="dk.itu.sdg.feature.kopitiam.dev" version="0.3.7.1">
+      <category name="proof"/>
+   </feature>
    <category-def name="proof" label="Proof Tools"/>
 </site>
